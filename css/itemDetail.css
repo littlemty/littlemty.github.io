@@ -1,0 +1,161 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+/*版心*/
+.w {
+	width: 980px;
+	margin: 0 auto;
+}
+
+/*清楚浮动*/
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/*头部开始*/
+.fixed-ban {
+	width: 100%;
+	height: 30px;
+	color: #666;
+	text-align: center;
+	line-height: 30px;
+	background: #ddd;
+	font-size: 14px;
+	border-bottom: 1px dashed #f00;
+}
+.fixed {
+	height: 30px;
+}
+/*左侧welcome部分*/
+.fixed-left {
+	width: 200px;
+	height: 30px;
+	float: left;
+}
+/*右侧导航部分*/
+.fixed-right {
+	/*width: 300px;*/
+	height: 30px;
+	float: right;
+}
+.fixed-right ul {
+	float: right;
+}
+.fixed-right li {
+	width: 90px;
+	height: 30px;
+	float: left;
+}
+.fixed-right #spe {
+	width: 150px;
+}
+#spe a:nth-child(2) {
+	margin: 0 10px;
+	color: #f00;
+}
+.fixed-right a {
+	color: #666;
+	text-decoration: none;
+}
+.fixed-right li.shu {
+	width: 1px;
+	height: 15px;
+	background: #666;
+	margin-top: 8px;
+}
+/*头部结束*/
+
+/*详情开始*/
+.detail {
+	height: 100%;
+	margin-top: 10px;
+	border: 1px solid #ccc;
+}
+
+/*图片预览部分开始*/
+.pic {
+	float: left;
+	width: 450px;
+	height: 545px;
+	padding: 25px 0 0 20px;
+}
+.pic>img {
+	width: 430px;
+	height: 460px;
+}
+.picSmall {
+	width: 420px;
+	text-align: center;
+}
+.picSmall img {
+	cursor: pointer;
+	width: 64px;
+	height: 64px;
+	margin: 10px;
+	border: 1px solid #ddd;
+}
+/*图片预览部分结束*/
+
+
+/*介绍开始*/
+.intro {
+	float: right;
+	width: 420px;
+	padding: 20px 20px 0 0;
+}
+.intro-top p {
+	font-weight: 700;
+	margin: 20px 0;
+}
+.intro-top span {
+	color: #ff6a00;
+	font-size: 18px;
+	font-weight: 700;
+}
+.intro-middle {
+	font-size: 14px;
+	color: #737373;
+	margin: 50px 0;
+    padding: 30px 0;;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+.intro-middle p {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	margin: 25px 0;
+}
+.intro-middle p span {
+	margin-right: 20px;
+}
+.intro-bottom a {
+	text-decoration: none;
+	display: inline-block;
+	width: 142px;
+	height: 42px;
+	text-align: center;
+	line-height: 42px;
+	font-size: 18px;
+}
+.car {
+	color: #ff6a00;
+	margin-right: 20px;
+	border: 1px solid #ff6a00;
+}
+.buy {
+	color: #fff;
+	background-color: #ff6a00;
+}
+
+/*介绍结束*/
+
+/*详情结束*/

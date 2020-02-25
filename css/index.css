@@ -1,0 +1,296 @@
+/*css 初始化 */
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img,input,button {
+	margin: 0;
+	padding: 0;
+}
+
+ul,ol {
+	list-style: none;	/*清除列表风格*/
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+body {
+	height: 100%;
+}
+
+/*版心*/
+.w {
+	width: 980px;
+	margin: 0 auto;
+}
+
+/*清楚浮动*/
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+/*头部开始*/
+.fixed-ban {
+	width: 100%;
+	height: 30px;
+	color: #666;
+	text-align: center;
+	line-height: 30px;
+	background: #ddd;
+	font-size: 14px;
+	border-bottom: 1px dashed #f00;
+}
+.fixed {
+	height: 30px;
+}
+/*左侧welcome部分*/
+.fixed-left {
+	width: 200px;
+	height: 30px;
+	float: left;
+}
+/*右侧导航部分*/
+.fixed-right {
+	/*width: 300px;*/
+	height: 30px;
+	float: right;
+}
+.fixed-right ul {
+	float: right;
+}
+.fixed-right li {
+	width: 90px;
+	height: 30px;
+	float: left;
+}
+.fixed-right #spe {
+	width: 150px;
+}
+#spe a:nth-child(2) {
+	margin: 0 10px;
+	color: #f00;
+}
+.fixed-right a {
+	color: #666;
+	text-decoration: none;
+}
+.fixed-right li.shu {
+	width: 1px;
+	height: 15px;
+	background: #666;
+	margin-top: 8px;
+}
+/*头部结束*/
+
+
+/*搜索开始*/
+.search {
+	height: 100px;
+	margin-top: 1px;
+	background: url(../img/logobg.jpg) left top no-repeat;
+	background-size: 980px 100px;
+	position: relative;
+}
+.search .search-logo {
+	width: 180px;
+	height: 70px;
+	float: left;
+	margin-left: 30px;
+	background: #ccc;
+	border-radius: 10px;
+	color: #333;
+	text-align: center;
+	line-height: 70px;
+	position: absolute;
+	top: 50%;
+	margin-top: -35px;
+}
+.search .search-input {
+	width: 400px;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	margin-top: -18px;
+	float: right;
+}
+
+.search input {
+	width: 276px;
+	height: 32px;
+	border: 2px solid #666;
+}
+.search button {
+	width: 82px;
+	height: 36px;
+	color: #fff;
+	/*去除button的外边框*/
+	border: none;
+	font: 400 16px/36px "微软雅黑";
+	background-color: #666;
+	cursor: pointer;
+}
+.search ul {
+	width: 276px;
+	border: 1px solid #000;
+}
+.search ul li:hover {
+	background: deepskyblue;
+}
+
+/*搜索结束*/
+
+
+/*轮播图开始*/
+.banner {
+	height: 363px;
+	position: relative;
+	overflow: hidden;
+	margin-top: 10px;
+	}
+.banner .ad {
+	width: 980px;
+	height: 363px;
+	position: relative;
+}
+.banner ul {
+	width: 4900px;
+	height: 363px;
+	position: absolute;
+	left: 0;
+	}
+.banner ul li {
+	float: left;
+}
+.banner img {
+	width: 980px;
+	height: 363px;
+}
+.banner .arr {
+	width: 980px;
+	height: 60px;
+	text-align: center;
+	display: none;
+	font: 400 30px/60px "microsoft yahei";
+	position: absolute;
+	left: 0;
+	top: 50%;
+	margin-top: -30px;
+}
+.arr .arr-left {
+	float: left;
+	width: 40px;
+	height: 60px;
+	cursor: pointer;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.arr .arr-right {
+	width: 40px;
+	height: 60px;
+	float: right;
+	cursor: pointer;
+	background-color: rgba(0, 0, 0, 0.2);
+} 
+.banner ol {
+	height: 30px;
+	position: absolute;
+	right: 50px;
+	bottom: 30px;
+	text-align: center;
+	font: 18px/30px "microsoft yahei";
+}
+.banner ol li {
+	display: block;
+	width: 30px;
+	height: 30px;
+	float: left;
+	cursor: pointer;
+	background: rgba(0,0,0,0.1);
+	margin-right: 10px;
+}
+/*点亮小方块*/
+.banner ol li.current {
+	background: rgb(255,125,0);
+}					
+/*轮播图结束*/
+
+
+.main {
+	margin-top: 10px;
+}
+
+/*左侧菜单栏开始*/
+.main .left {
+	width: 180px;
+	float: left;
+	font-weight: 700;
+	margin-top: 10px;
+	border: 1px solid #C6C8CA;
+}
+.left p {
+	height: 35px;
+    line-height: 35px;
+    color: #fff;
+    padding-left: 10px;
+    background-color: #000;
+}
+.left ul li a{
+	display: block;
+	height: 35px;
+    line-height: 35px;
+    padding-left: 20px;
+    background-color: #E4E4E4;
+    border-bottom: 1px solid #C6C8CA;
+}
+.left ul li a:hover {
+	background-color: #fff;
+}
+
+/*左侧菜单栏结束*/
+
+
+
+/*右侧内容开始*/
+.main .right {
+	float: right;
+	width: 780px;
+	height: 100%;
+}
+.flowers-body .item {
+	width: 238px;
+	float: left;
+	margin: 10px;
+	border: 1px solid #ccc;
+}
+.preview {
+	position: relative;
+}
+.preview img {
+	width: 240px;
+	height: 240px;
+}
+.item .detail {
+	margin: 0 auto;
+	text-align: center;
+}
+.detail a {
+	color: #00f;
+}
+.detail a:hover {
+	text-decoration: underline;
+}
+.detail p {
+	height: 25px;
+	line-height: 25px;
+	color: #666;
+}
+.detail span {
+	color: #f40;	
+	font-size: 17px;
+}
+#dried,#immortal {
+	display: none;
+}
+
+/*右侧内容结束*/

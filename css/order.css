@@ -1,0 +1,188 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #f5f5f5;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+ul {
+	list-style: none;
+}
+
+/*版心*/
+.w {
+	width: 980px;
+	margin: 0 auto;
+}
+
+
+/*清楚浮动*/
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/*头部开始*/
+.fixed-ban {
+	width: 100%;
+	height: 30px;
+	color: #666;
+	text-align: center;
+	line-height: 30px;
+	background: #ddd;
+	font-size: 14px;
+	border-bottom: 1px dashed #f00;
+}
+.fixed {
+	height: 30px;
+}
+/*左侧welcome部分*/
+.fixed-left {
+	width: 200px;
+	height: 30px;
+	float: left;
+}
+/*右侧导航部分*/
+.fixed-right {
+	/*width: 300px;*/
+	height: 30px;
+	float: right;
+}
+.fixed-right ul {
+	float: right;
+}
+.fixed-right li {
+	width: 90px;
+	height: 30px;
+	float: left;
+}
+.fixed-right #spe {
+	width: 150px;
+}
+#spe a:nth-child(2) {
+	margin: 0 10px;
+	color: #f00;
+}
+.fixed-right a {
+	color: #666;
+	text-decoration: none;
+}
+.fixed-right li.shu {
+	width: 1px;
+	height: 15px;
+	background: #666;
+	margin-top: 8px;
+}
+/*头部结束*/
+
+/*主体头部开始*/
+.body {
+	width: 900px;
+	color: #757575;
+	margin-top: 20px;
+	padding: 50px 40px;
+	background-color: #fff;
+}
+.myorder {
+	font-size: 20px;
+	color: #000;
+    margin-bottom: 30px;
+}
+.top-nav {
+    margin-bottom: 30px;
+}
+.top-nav li {
+	width: 90px;
+	height: 30px;
+	float: left;
+	line-height: 30px;
+	text-align: center;
+}
+
+/*主体头部结束*/
+
+ul a {
+	color: #666;
+	text-decoration: none;
+}
+ul li.shu {
+	width: 1px;
+	height: 15px;
+	background: #666;
+	margin-top: 8px;
+}
+
+/*订单开始*/
+.pro {
+	width: 840px;
+	height: 250px;
+	margin-top: 20px;
+	border: 1px solid #b0b0b0;
+}
+.pro-top {
+	border-bottom: 1px solid #e0e0e0;
+}
+.pro-top p {
+	padding: 30px 0 20px 30px;
+}
+.pro-top ul {
+	margin: 0 0 30px 30px;
+}
+.pro-top li {
+	height: 30px;
+	float: left;
+	line-height: 30px;
+	text-align: center;
+	margin-right: 10px;
+}
+.pro-bottom {
+	padding: 15px 30px;
+}
+.pro-bottom .left {
+	width: 550px;
+	float: left;
+	position: relative;
+}
+.left .title {
+	position: absolute;
+    top: 0;
+    left: 100px;
+}
+.left .price {
+	position: absolute;
+    top: 30px;
+    left: 100px;
+}
+.pro-bottom .right {
+	float: right;
+}
+.right a {
+	display: block;
+	width: 118px;
+	height: 28px;
+	line-height: 28px;
+	color: #666;
+	text-align: center;
+	margin: 10px;
+	text-decoration: none;
+	border: 1px solid #B0B0B0;
+}
+.right a:hover {
+	color: #fff;
+	background-color: #666;
+}
+#order {
+	overflow: hidden;
+}
+.nopay ,.take {
+	display: none;
+}
+/*订单结束*/

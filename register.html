@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>欢迎注册</title>
+		<link rel="stylesheet" href="css/register.css" />
+		<script type="text/javascript" src="js/jquery-1.11.1.js" ></script>
+		<script type="text/javascript" src="js/register.js" ></script>
+	</head>
+
+	<body>
+		<!--头部开始-->
+		<div class="register-top">
+			<div class="top-title">
+				<h1><a href="index.html">羽毛花店</a></h1>
+				<h3>欢迎注册</h3>
+			</div>
+		</div>
+		<!--头部结束-->
+
+		<div class="register-bottom">
+			<div class="main">
+				<div class="title">
+					<span>新用户注册</span>
+				</div>
+
+				<div class="body">
+					<form action="" method="post" id="registForm">
+						<table>
+						<tr>
+							<td class="tdText">用户名:</td>
+							<td>
+								<input type="text" class="inputClass" id="loginname" />
+							</td>
+							<td>
+								<label class="errorClass" id="loginnameError"></label>
+							</td>
+						</tr>
+						<tr>
+							<td class="tdText">密码:</td>
+							<td>
+								<input type="password" class="inputClass" id="loginpass"/>
+							</td>
+							<td>
+								<label class="errorClass" id="loginpassError"></label>
+							</td>
+						</tr>
+						<tr>
+							<td class="tdText">确认密码:</td>
+							<td>
+								<input type="password" class="inputClass" id="reloginpass" />
+							</td>
+							<td>
+								<label class="errorClass" id="reloginpassError"></label>
+							</td>
+						</tr>
+						<tr>
+							<td class="tdText">Email:</td>
+							<td>
+								<input type="text" class="inputClass" id="email" />
+							</td>
+							<td>
+								<label class="errorClass" id="emailError"></label>
+							</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td>
+								<input type="submit" value="提交" id="submitBtn"/>
+							</td>
+							<td></td>
+						</tr>
+
+					</table>
+					</form>
+
+				</div>
+			</div>
+		</div>
+
+	</body>
+
+</html>
